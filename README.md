@@ -9,8 +9,12 @@
   - This program takes a file from your local system and will upload it to an Azure Storage Account all through a command line interface of your choice. Run the program file `main.py` once all values are set inside your locally cloned file.
 
 - **How to use the CLI Uploader:**
+
   1. Input your "Azure Storage Key" into the `STORAGE_ACCOUNT_KEY` constant.
   2. Input your "Azure Storage Account Name" into the `STORAGE_ACCOUNT_NAME` constant.
   3. Input your "Container Connection String" into the `CONNECTION_STRING` constant.
   4. Input your "Container Name" into the `CONTAINER_NAME` constant.
   5. Run the `main.py` file and provide the file path when prompted and the file name when prompted.
+
+- **Python Libraries this project uses:**
+  - `azure.storage.blob` (it only uses BlobServiceClient from this Library)
